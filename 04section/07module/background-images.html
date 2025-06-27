@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Images</title>
+    <style>
+        .bg-image {
+            background-image: url("https://picsum.photos/600/200");
+            height: 800px;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+        .bg-cover {
+            background-size: cover;
+        }
+
+        .bg-contain {
+            background-size: contain;
+        }
+
+        .bg-no-repeat {
+            background-repeat: no-repeat;
+        }
+
+        .bg-gradient {
+            background: linear-gradient(to right, red, blue)
+        }
+    </style>
+</head>
+
+<body>
+    <!-- background images -->
+    <div class="bg-image bg-contain bg-no-repeat bg-gradient">Background Image</div>
+
+</body>
+
+</html>
